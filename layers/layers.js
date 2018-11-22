@@ -41,11 +41,11 @@ jsonSource_NmerodeProductoresdePanela_1.addFeatures(features_NmerodeProductoresd
 lyr_LimiteDepartamental_0.setVisible(true);lyr_NmerodeProductoresdePanela_1.setVisible(true);
 var layersList = [baseLayer,lyr_LimiteDepartamental_0,lyr_NmerodeProductoresdePanela_1];
 lyr_LimiteDepartamental_0.set('fieldAliases', {'DEPT': 'DEPT', });
-lyr_NmerodeProductoresdePanela_1.set('fieldAliases', {'Dept': 'Dept', 'Total.Prod': 'Total.Prod', '%.Pequeños': '%.Pequeños', '%.Medianos': '%.Medianos', '%.Grandes': '%.Grandes', 'Numero.Tra': 'Numero.Tra', });
+lyr_NmerodeProductoresdePanela_1.set('fieldAliases', {'Dept': 'Dept', 'Total.Prod': 'Total.Prod', '%.Pequeños': '%.Pequeños', '%.Medianos': '%.Medianos', '%.Grandes': '%.Grandes', 'Trapiches': 'Trapiches', });
 lyr_LimiteDepartamental_0.set('fieldImages', {'DEPT': 'TextEdit', });
-lyr_NmerodeProductoresdePanela_1.set('fieldImages', {'Dept': 'TextEdit', 'Total.Prod': 'TextEdit', '%.Pequeños': 'TextEdit', '%.Medianos': 'TextEdit', '%.Grandes': 'TextEdit', 'Numero.Tra': 'TextEdit', });
+lyr_NmerodeProductoresdePanela_1.set('fieldImages', {'Dept': 'TextEdit', 'Total.Prod': 'TextEdit', '%.Pequeños': 'TextEdit', '%.Medianos': 'TextEdit', '%.Grandes': 'TextEdit', 'Trapiches': 'TextEdit', });
 lyr_LimiteDepartamental_0.set('fieldLabels', {'DEPT': 'inline label', });
-lyr_NmerodeProductoresdePanela_1.set('fieldLabels', {'Dept': 'inline label', 'Total.Prod': 'inline label', '%.Pequeños': 'inline label', '%.Medianos': 'inline label', '%.Grandes': 'inline label', 'Numero.Tra': 'inline label', });
+lyr_NmerodeProductoresdePanela_1.set('fieldLabels', {'Dept': 'inline label', 'Total.Prod': 'inline label', '%.Pequeños': 'inline label', '%.Medianos': 'inline label', '%.Grandes': 'inline label', 'Trapiches': 'inline label', });
 lyr_NmerodeProductoresdePanela_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
